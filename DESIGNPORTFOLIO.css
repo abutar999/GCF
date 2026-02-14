@@ -1,0 +1,63 @@
+* {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: whitesmoke;
+      color: burlywood;
+      line-height: 1.3;
+    }
+
+    header {
+      background: lightblue;
+      color: black;
+      padding: 40px;
+      display: flex;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 30px;
+    }
+
+    nav a {
+      color: black;
+      margin-left: 20px;
+      font-size: 15px;
+    }
+
+    .name {
+      height: 250px;
+      background: linear-gradient(120deg, blue, coral);
+      color: beige;
+      text-align: center;
+    }
+
+    .name h2 {
+      font-size: 45px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px;
+    }
+
+    .section-title {
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .about, .contact {
+      background: white;
+      margin-bottom: 30px;
+      padding: 30px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: black;
+      color: white;
+      font-size: 24px;
+    }
